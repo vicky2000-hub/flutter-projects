@@ -1,0 +1,23 @@
+void main(){
+  var l1=[0,1,2,3,4,5,6,7,8,9];
+  var e,o;
+  var k=0; var j=0;
+  for (var i=0;i<=10;i++){
+    if(l1[i]%2==0){
+      e[j]=l1[i];
+      j++;
+    }
+    else{
+      o[k]=l1[i];
+      k++;
+    }
+    print("even number are");
+    for (var i=0;i<=j;i++){
+      print(e[j]);
+    }
+    print("odd number are");
+    for (var i=0;i<=k;i++){
+      print(o[i]);
+    }
+  }
+}
