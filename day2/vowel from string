@@ -1,0 +1,13 @@
+void main(){
+  var s = "vignesh s";
+  var vowel=0;
+  var x =s.split('');
+  print(x);
+  for(var i=0;i<=x.length;i++){
+    if ((x[i]=='a')|(x[i]=='e')|(x[i]=='i')|(x[i]=='o')|(x[i]=='u')){
+       vowel = vowel +1;
+
+    }
+  }
+print(vowel);
+}
