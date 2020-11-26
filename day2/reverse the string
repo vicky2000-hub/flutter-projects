@@ -1,0 +1,5 @@
+void main() {
+  var input = "My name \u{1d11e} is S.vignesh"; // Music 𝄞 for the win
+  print(new String.fromCharCodes(input.runes
+      .toList()
+      .reversed));
